@@ -1,0 +1,85 @@
+/* ===== Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== Base ===== */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* ===== Navbar ===== */
+.navbar-brand {
+  color: #FFD700 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important;
+}
+
+/* ===== Conteúdo ===== */
+h1, h2 {
+  color: #FFD700;
+}
+
+p {
+  color: #fff;
+}
+
+.contato-item {
+  transition: transform 0.3s ease, color 0.3s ease;
+  text-align: center;
+}
+
+.contato-item:hover {
+  transform: translateY(-6px);
+  color: #FFD700;
+}
+
+.contato-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  background-color: #111;
+  padding: 15px;
+  border-radius: 20%;
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contato-item:hover .contato-icon {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.6);
+}
+
+/* ===== Rodapé ===== */
+section.bg-dark {
+  background-color: #000 !important;
+}
+
+a {
+  color: #FFD700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsividade ===== */
+@media (max-width: 768px) {
+  .contato-icon {
+    width: 90px;
+    height: 90px;
+  }
+}
