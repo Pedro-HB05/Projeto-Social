@@ -47,9 +47,3 @@ O Projeto V Solas nasceu da necessidade de oferecer um ambiente seguro e acolhed
 - Acompanhamento e formação pessoal  
 
 O esporte é usado como ferramenta de transformação e esperança.
-
----
-
-## 🔗 Como acessar o site
-
-projeto-social-vsolas.netlify.app
